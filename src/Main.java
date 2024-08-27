@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-//        DanhSachNguoi ds = new DanhSachNguoi();
-//        ds.nhap();
-//        ds.xuat();
+        // DanhSachNguoi ds = new DanhSachNguoi();
+        // ds.nhap();
+        // ds.xuat();
 
-        //Cau2
+        // Cau2
         System.out.println("Cau2");
         System.out.println("Nhap nhap nhom mau cua cha: ");
         NhomMau nhomMau = new NhomMau();
@@ -23,11 +23,10 @@ public class Main {
         System.out.printf("Con: ");
         con.xuat();
 
-        if(me.kiemTraDiTruyen(cha, con)){
-            System.out.println("");
-        }
-        else {
-
+        if (me.kiemTraDiTruyen(cha, con)) {
+            System.out.println("Gia dinh dung theo quy luat dy truyen hoc");
+        } else {
+            System.out.println("Co gi do sai sai !");
         }
 
     }
